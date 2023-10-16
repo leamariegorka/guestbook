@@ -75,4 +75,5 @@ class GuestbookEntry {
 	public String getText() {
 		return text;
 	}
+
 }

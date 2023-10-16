@@ -76,6 +76,7 @@ class GuestbookForm {
 	 * @return the newly created {@link GuestbookEntry}
 	 * @throws IllegalArgumentException if you call this on an instance without the name and text actually set.
 	 */
+
 	GuestbookEntry toNewEntry() {
 		return new GuestbookEntry(getName(), getText());
 	}
